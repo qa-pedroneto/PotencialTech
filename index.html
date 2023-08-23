@@ -9,39 +9,91 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap">
-    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/style.css">
 
-    <script src="/JS/index.js"></script>
+    <script src="/JS/script.js"></script>
 </head>
 <body>
 
-    <div id="text-body">
-        <div id="div-logo">
-            <img src="IMG/logo.png" alt="logo">
-        </div>
-    
-        <div id="div-p">
-            <p>
-                Ficar em casa em períodos longos, não deve ser nada fácil.
-            </p>
-            <p>
-                Iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo que for necessário para tornar esse momento mais interessante.
-            </p>
-            <p>
-                Comece clicando em ver ideias para ver as  ideias cadastradas e contribua adicioando a sua ideia.
-            </p>
-        </div>
+    <div id="container">
+        <section id="intro">
+
+            <div id="text-body">
+                <head>
+                    <div id="div-logo">
+                        <img src="IMG/logo.png" alt="logo">
+                    </div>
+                </head>
+                <main>
+                    <div id="div-p">
+                        <p>
+                            Ficar em casa em períodos longos, não deve ser nada fácil.
+                        </p>
+                        <p>
+                            Iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo que for necessário para tornar esse momento mais interessante.
+                        </p>
+                        <p>
+                            Comece clicando em ver ideias para ver as  ideias cadastradas e contribua adicioando a sua ideia.
+                        </p>
+                    </div>
+                </main>
+            </div>
+        </section>
+
+        <section id="botoes2">
+            <div id="buttons">
+                <button id="button-add">+ Adicionar ideias</button>
+                <button id="button-ideias">Ver ideias</button>
+            </div>
+        </section>
+
+        <footer>
+            <div id="div-p-footer">
+                <p id="footer">
+                    Com ♥️ <a href="http://rocketseat.com.br" id="link-rocket">Rocketseat</a>
+                </p>
+            </div>
+        </footer>
+
     </div>
 
-    <div id="buttons">
-        <button id="button-add">+ Adicionar ideias</button>
-        <button id="button-ideias">Ver ideias</button>
-    </div>
+    <section id="last-ideias">
+        <div class="ideias">
+            <img src="https://cdn-icons-png.flaticon.com/512/2729/2729007.png" alt="Curso de Programação">
+            <div class="content">
+                <h3>Curso de Programação</h3>
+                <p>Estudo</p>
+                <div class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt mollitia distinctio consectetur natus saepe magnam dolorem odit repellat dignissimos sunt. Tenetur dolores fugiat sequi harum repellendus? Consequuntur praesentium architecto illum.
+                </div>
+                <a href="#">Ir para ideia</a>
+            </div>
+        </div>
 
-    <div id="div-p-footer">
-        <p id="footer">
-            Com ♥️ <a href="http://rocketseat.com.br" id="link-rocket">Rocketseat</a>
-        </p>
-    </div>
+        <div class="ideias">
+            <img src="https://cdn-icons-png.flaticon.com/512/2729/2729005.png" alt="Exercicio">
+            <div class="content">
+                <h3>Aula de Exercício</h3>
+                <p>Exercício</p>
+                <div class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt mollitia distinctio consectetur natus saepe magnam dolorem odit repellat dignissimos sunt. Tenetur dolores fugiat sequi harum repellendus? Consequuntur praesentium architecto illum.
+                </div>
+                <a href="#">Ir para ideia</a>
+            </div>
+        </div>
+
+        <div class="ideias">
+            <img src="https://cdn-icons-png.flaticon.com/512/2729/2729027.png" alt="Saude">
+            <div class="content">
+                <h3>Curso de Meditação</h3>
+                <p>Meditar</p>
+                <div class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt mollitia distinctio consectetur natus saepe magnam dolorem odit repellat dignissimos sunt. Tenetur dolores fugiat sequi harum repellendus? Consequuntur praesentium architecto illum.
+                </div>
+                <a href="#">Ir para ideia</a>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
