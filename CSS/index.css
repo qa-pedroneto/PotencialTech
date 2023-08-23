@@ -1,0 +1,44 @@
+/* Olá CSS */
+
+/* Cor de Fundo */
+body {
+    background-color:  rgba(237, 239, 241, 0.849);
+}
+
+/* Centralização da imagem logo */
+#div-logo {
+    text-align: center;
+    padding: 2rem 2rem 2rem;
+}
+
+/* Centralização dos botões */
+#buttons, #text-body, #div-p-footer {
+    text-align: center;
+}
+
+/* Formatação do Botão: Adicionar ideias */
+#button-add {
+    background-color: transparent;
+    font-weight: bold;
+    border-color: rgba(237, 239, 241, 0.5);
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0.25rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Formatação do Botão: Ver ideias */
+#button-ideias {
+    background-color: rgb(255, 44, 125);
+    color: #fff;
+    font-weight: bold;
+    border-color: rgba(237, 239, 241, 0.5);
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0.25rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Link sem formatação padrão */
+#link-rocket {
+    color: black;
+    text-decoration: none;
+}
